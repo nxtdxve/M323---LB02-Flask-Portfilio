@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # A1G
 @app.route('/square/<int:n>')
-def square_number(n):
+def square_one_number(n):
     return jsonify(result=n * n)
 
 # A1F
@@ -118,13 +118,13 @@ def triple_route(number):
     return {'Result': apply_triple(number)}
 
 # B3G
-square = lambda x: x * x
+squared = lambda x: x * x
 
 uppercase = lambda s: s.upper()
 
 @app.route('/square/<int:number>')
 def square_number(number):
-    return {'Quadrat': square(number)}
+    return {'Quadrat': squared(number)}
 
 @app.route('/uppercase/<string:text>')
 def uppercase_text(text):
