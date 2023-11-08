@@ -28,7 +28,7 @@ Das Portfolio deckt eine breite Palette von Themen ab, die in drei Schwerpunktbe
 
 - **A1E:** Vergleich der Problemlösungsansätze in OO, prozeduraler und funktionaler Programmierung.
 - **B1E:** Implementierung von Funktionen in zusammenhängende Algorithmen.
-- **B2E:** Anwendung von Funktionen als Objekte und Argumente für komplexe Aufgaben, einschließlich Closures.
+- **B2E:** Anwendung von Funktionen als Objekte und Argumente für komplexe Aufgaben, einschliesslich Closures.
 - **B3E:** Nutzung von Lambda-Ausdrücken zur Steuerung des Programmflusses, wie beim Sortieren von Listen.
 - **B4E:** Einsatz von Map, Filter und Reduce zur Lösung komplexer Datenverarbeitungsaufgaben.
 - **C1E:** Einschätzung der Auswirkungen des Refactorings auf das Codeverhalten und Sicherstellung, dass keine unerwünschten Nebeneffekte entstehen.
