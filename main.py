@@ -4,7 +4,7 @@ from flask import request
 app = Flask(__name__)
 
 # A1G
-@app.route('/square/<int:n>')
+@app.route('/squared/<int:n>')
 def square_one_number(n):
     return jsonify(result=n * n)
 
@@ -54,7 +54,7 @@ def square(n):
 def cube(n):
     return n * n * n
 
-@app.route('/calculate', methods=['POST'])
+@app.route('/calculate_values', methods=['POST'])
 def calculate_values():
     numbers = request.json.get('numbers', [])
     squared_values = [square(n) for n in numbers]
